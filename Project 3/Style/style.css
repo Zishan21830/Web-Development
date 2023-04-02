@@ -1,0 +1,148 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Font Family */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Assests/header-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-menu .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.nav-items .nav-item{
+    list-style: none;
+}
+
+.nav-items .nav-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    /* transition: 0.3s; */
+}
+
+.nav-items .nav-item a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid white;
+}
+.header-content{
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 60px; 
+}
+
+.header-content .main-heading{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+/* header paragraph */
+ .para{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 90px;
+}
+
+/* header button */
+.btns{
+    padding: 10px 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    bottom: 90px;
+    font-weight: 600;
+}
+
+/* Extra Small devices (phone, 600px and down */
+@media (max-width: 600px) {
+    .navigation-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .navigation-menu h1{
+        margin-left: -25px;
+        text-align: center;
+    }
+}
+
+/* Small devices (Portrait tablets and large phone, 600px and up */
+@media (min-width: 600px) {
+    .nav-items{
+        display: flex;
+        gap: 50px;
+    }
+}
+
+/* Medium devices (Landscape tablets, 768px and up */
+@media (min-width: 768px) {
+    .nav-items{
+        display: flex;
+        gap: 70px;
+    }
+}
+
+/* Large devices (Laptops/ Desktop, 992px and up */
+@media (min-width: 992px) {
+    .nav-items{
+        display: flex;
+        gap: 90px;
+    }
+}
+
+/* Small devices (Large Laptops and large phone, 600px and up */
+@media (min-width: 1200px) {
+    .nav-items{
+        display: flex;
+        gap: 70px;
+    }
+}
