@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: underline rgb(18, 155, 155);
+}
+
+nav .navigation-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    color: rgb(18, 155, 155);
+    text-decoration: underline;
+    
+}
+
+ul li .active{
+    background-color: rgb(18, 155, 155);
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+ul li .active:hover{
+    color: black;
+    text-decoration: none;
+}
+.search-field {
+    display: flex;
+    gap: 10px;
+}
+
+.search-field input{
+    padding: 5px 5px;
+    font-size: 15px;
+    color: rgb(18, 155, 155);
+    font-weight: 600;
+}
+
+
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+button:hover{
+    background-color: white;
+    color: rgb(18, 155, 155);
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 200px;
+    gap: 200px;
+}
+
+.left-section{
+    position: relative;
+    right: 150px;
+}
+.left-section h1{
+    font-size: 40px;
+}
+.left-section h1 span{
+    color: rgb(18, 155, 155);
+}
+.left-section p{
+    font-weight: 600;
+    
+}
+.left-section p span {
+    font-size: 20px;
+    color: rgb(18, 155, 155);
+}
+
+.right-section  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+}
+
+footer .copyright {
+    position: relative;
+    top: 150px;
+    left: 65px;
+    font-weight: 600;
+}
+
+footer .social ul{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 150px;
+    right: 40px;
+}
+
+ 
+
+
+
+
