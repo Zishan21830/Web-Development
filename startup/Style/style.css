@@ -1,0 +1,107 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* REset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+.navigation-bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/*  navigation bar */
+.navigation-bar .list-items{
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.list-items .list-item{
+    list-style: none;
+}
+
+.list-items .list-item a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.list-items .list-item a:hover{
+    color: #24a4f3;
+}
+
+.navigation-bar .logo{
+    list-style: none;
+    margin-left: 150px;
+}
+
+.navigation-bar .logo a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+}
+.logo{
+    font-size: 50px;
+}
+.navigation-bar .sayHi a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-bottom: 4px solid #24a4f3;
+}
+
+.navigation-bar .sayHi{
+    list-style: none;
+    margin: 25px 80px 0 0;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    top: 190px;
+    left: 140px; */
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    gap: 60px;
+}
+
+.main-content .main-heading{
+    font-size: 50px;
+    color: #fff;
+}
+
+.main-content button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #24a4f3;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all 0.1s ease-in;
+}
+
+.main-content button:hover{
+    background-color: transparent;
+    border: 2px solid #24a4f3;
+    color: #24a4f3;
+}

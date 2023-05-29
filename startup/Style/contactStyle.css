@@ -1,0 +1,134 @@
+/* Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(0,0,0,0.1);
+    height: 90vh;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+/* Left Section */
+.left-section{
+    width: 470px;
+    height: 500px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.left-section .heading-left-section{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 21px 0;
+}
+
+.left-section input,textarea,button{
+    margin: 5px;
+    outline: none;
+    padding: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+
+.left-section .subject input{
+    width: 96%;  
+}
+
+.left-section textarea{
+    width: 96%;
+}
+
+.left-section input,textarea::placeholder{
+    font-weight: 600;
+}
+
+.left-section .btn button{
+    padding: 10px 20px;
+    background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80');
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Right Section */
+.right-section{
+    width: 330px;
+    height: 570px;
+    background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80');
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.right-section .heading-right-section{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.right-section .info{
+    margin: 5px 30px 5px 50px;
+    padding: 0 0 5px 0;
+}
+
+.right-section .logo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5895f1;
+    position: relative;
+    top: 40px;
+    left: -60px;
+}
+
+.right-section .logo-address{
+    position: relative;
+    top: 70px;
+}
+
+
+.right-section .logo i{
+    position: relative;
+    top: 12px;
+    left: 17px;
+    color: #fff;
+}
+
+.right-section .logo-address i{
+    position: relative;
+    left: 20px;
+}
+.right-section p{
+    color: #fff;
+}
+
+.right-section .bold{
+    font-weight: 600;
+}
+
+
+
+
