@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gilda+Display&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.logo {
+  width: 5%;
+  height: 100%;
+  position: relative;
+}
+.logo img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+nav .nav-items {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+
+.nav-items li a {
+  color: #4883b4;
+}
+
+main {
+  width: 100%;
+}
+
+/* Home Section */
+#home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url("./home.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#home h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: #4883b4;
+  text-shadow: 0 0 0.5rem #03345d;
+}
+
+/* About Section */
+#about {
+  width: 100%;
+  height: 60vh;
+  background-color: #4883b4;
+  flex-direction: column;
+  border: 2rem solid #fff;
+}
+
+#about article {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#about article h3 {
+  font-size: 2rem;
+}
+#about article p {
+  padding: 1rem 5%;
+  text-align: justify;
+}
+
+.uline {
+  width: 7%;
+  border-top: 0.3rem solid #fff;
+  margin-bottom: 1rem;
+}
+
+
+/* Footer Section */
+#footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #4883b4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .l-footer{
+    width: 50%;
+}
+#footer .r-footer{
+    width: 50%;
+    gap: 3rem;
+    font-size: 2rem;
+    color: #fff;
+}
+#footer .r-footer i:hover{
+    color: #03345d;
+    cursor: pointer;
+}
+
